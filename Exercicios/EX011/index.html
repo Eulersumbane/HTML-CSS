@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midias em html 5</title>
+</head>
+<body>
+    <h1>Imagens Dinamicas</h1>
+    <p>Tente  abrir esse site em varios dispositivos diferentes
+     ou simplemente aumente e diminua a imagem do seu navegador</p>
+     <picture>
+        <source media="(max-width:750px )" srcset="imagens/foto-p.png" type="image/png">
+        
+        <img src="imagens/foto-g.png"alt="imagem flexivel">
+
+     </picture>
+     <h1>Reproduzindo audio</h1>
+     <p>Vamos apreender a reproduzir audios em html 5</p>
+     <audio src="midia/edsheren.mp3"controls autoplay></audio>
+
+     <h2>Outra forma de criar audio</h2>
+
+     <audio>
+        <source src="midia/rapdrake.mp3" type="audio/mpeg">
+        <source src="midia/edsheren.mp3" type="audio/ogg">
+       
+
+
+
+     </audio>
+
+</body>
+</html>
